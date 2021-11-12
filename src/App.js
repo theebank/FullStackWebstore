@@ -12,20 +12,18 @@ const App = () => {
     fetch('/api').then(
       response => response.json()
     ).then(
-      data =>setproducts(data)
-          
+      data =>setproducts(data.data)
+
     )
     
   }, [])
-  var productsarray = []
-  for(var i in products)
-    console.log(products[i]);
-    productsarray.push([i, products[i]]);    
-  console.log(productsarray);
+
+  
+  
   return (
     
     <div>  
-        <h1>{productsarray}</h1>
+        <Products products = {products} />
         
     </div>
     

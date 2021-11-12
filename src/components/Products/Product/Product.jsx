@@ -1,14 +1,17 @@
-import { Card, CardActions,CardContent,CardMedia } from '@material-ui/core'
 import React from 'react'
+import { Card, CardActions,CardContent,CardMedia } from '@material-ui/core'
 
-const Product = ({product}) => {
-    console.log(product)
+
+const Product = ({Product}) => {
+    console.log("hit")
     return (
-        
         <div>
-            Hi
+            <h1>{Product}</h1>
         </div>
     )
 }
+
+
+
 
 export default Product;

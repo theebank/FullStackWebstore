@@ -34,7 +34,7 @@ def initialize():
         Products['data'].append(temp)
 
 initialize()    
-
+print(Products['data'])
 
 
     
