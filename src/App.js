@@ -23,6 +23,7 @@ const App = () => {
   return (
     
     <div>  
+        <Navbar/>
         <Products products = {products} />
         
     </div>

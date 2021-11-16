@@ -10,7 +10,7 @@ const Navbar = () => {
         <div>
             <AppBar position = "fixed" color = "inherit">
                 <Toolbar>
-                <Typography variant = "h6"  color = "inherit">Theeban's Full Stack Car Shop</Typography>            
+                <Typography variant = "h6"  color = "inherit">Theeban's Full Stack Web Shop</Typography>            
                 <div className = {classes.grow}></div>                
                 <ShoppingCart/>
                 </Toolbar>
